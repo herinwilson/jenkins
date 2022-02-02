@@ -1,4 +1,4 @@
-listview('test view'){
+listView('test view'){
     description('test view')
     jobs{
         regex('.*.dsl')
