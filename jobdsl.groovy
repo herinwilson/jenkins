@@ -14,6 +14,5 @@ freeStyleJob('job created from coed dsl') {
     publishers {
         archiveArtifacts('**/*.jar')
         }
-    }
 }
 
