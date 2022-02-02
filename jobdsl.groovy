@@ -12,7 +12,7 @@ freeStyleJob('job created from coed dsl') {
     }
     steps {
         maven {
-            goals = 'clean package', 'maven-samples/single-module/pom.xml'
+            goals = ('clean package', 'maven-samples/single-module/pom.xml')
         }
     }
     publishers {
