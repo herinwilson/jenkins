@@ -9,7 +9,7 @@ listView('test view'){
         lastSuccess()
         lastFailure()
         lastDuration()
-        buildbutton()
         name()
+	buildButton()
     }
 }
