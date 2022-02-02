@@ -4,7 +4,6 @@ freeStyleJob('job created from coed dsl') {
     scm {
         git("https://github.com/herinwilson/jenkins.git", master )
         }
-    }
     triggers {
         scm('* * * * *')
     }
