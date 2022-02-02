@@ -11,9 +11,7 @@ freeStyleJob('job created from coed dsl') {
         scm('* * * * *')
     }
     steps {
-        maven {
-            goals = ('clean package', 'maven-samples/single-module/pom.xml')
-        }
+        maven ('clean package', 'maven-samples/single-module/pom.xml')  
     }
     publishers {
         archiveArtifacts {
@@ -21,4 +19,4 @@ freeStyleJob('job created from coed dsl') {
         }
     }
 }
- 
+
