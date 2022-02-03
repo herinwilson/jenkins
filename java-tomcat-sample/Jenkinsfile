@@ -1,9 +1,9 @@
-pipeline {
+pipelineJ{
     agent any
     stages {
         stage('build') {
             steps {
-                sh 'mvn clean package'
+                sh 'mvn -f  java-tomcat-sample/pom.xml clean package'
             }
             post {
                 success {
