@@ -1,4 +1,4 @@
-pipelineJob(pipeline-code-job) {
+pipelineJob {
     agent any
     stages {
         stage('build') {
